@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.4px solid #fff2e7;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.cab{
+    display: inline-block;
+    margin: 20px;
+}
+
+.cabecalho {
+    color: white;
+}
+
+.cabecalho:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#area-do-cliente-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#area-do-cliente-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
